@@ -12,8 +12,8 @@ When analysing the event types by the impact on the economy, we observe that flo
 How the data were loaded into R.
 Data are downloaded and imported in stormdata data frame.
 ```{r}
-fileUrl <- "https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2"
-download.file(fileUrl, destfile = "tempdata.csv.bz2")
+#fileUrl <- "https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2"
+#download.file(fileUrl, destfile = "tempdata.csv.bz2")
 stormdata <- read.csv("./tempdata.csv.bz2")
 ```
 =======
