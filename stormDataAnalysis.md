@@ -14,7 +14,7 @@ Data are downloaded and imported in stormdata data frame.
 
 ```r
 fileUrl <- "https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2"
-download.file(fileUrl, destfile = "tempdata.csv.bz2", method = "curl")
+download.file(fileUrl, destfile = "tempdata.csv.bz2")
 ```
 
 ```
