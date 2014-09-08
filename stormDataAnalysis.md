@@ -15,6 +15,17 @@ Data are downloaded and imported in stormdata data frame.
 ```r
 fileUrl <- "https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2"
 download.file(fileUrl, destfile = "tempdata.csv.bz2")
+<<<<<<< HEAD
+=======
+```
+
+```
+Warning: running command 'curl  "https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2"  -o "tempdata.csv.bz2"' had status 127
+Warning: download had nonzero exit status
+```
+
+```r
+>>>>>>> origin/master
 stormdata <- read.csv("./tempdata.csv.bz2")
 ```
 =======
